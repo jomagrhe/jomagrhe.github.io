@@ -1,0 +1,350 @@
+body{
+    background-color: rgb(108, 236, 223);
+    font-size: 16px;
+}
+header{
+    padding:1.25rem 4.3rem;
+    font-size: 3.1rem;
+    font-weight: bold;
+    background-image: url(images/Vector.png);
+    background-repeat: no-repeat;
+    background-position: 2.5%;
+    background-position-y: 36%;
+    color: #0a3871;
+}
+.inputType{
+    width: 85.3rem;
+    padding: 1.25rem 4.375rem;
+    flex: inline-flex;
+    
+}
+#typeText{
+    background-color: rgb(108, 236, 223);
+    width: 60%;
+    height: 40%;
+    margin-left: 2.5rem;
+    margin-right: 0.625rem;
+    border-radius: 0.625rem;
+    padding-block-start: 11.25rem;
+    float: left;
+    border: none;
+    font-size: 1.875em;   
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: brown;
+    align-items: center;
+    justify-content: center;
+    outline: none;
+    text-align: center;
+     
+}
+#typeText:active{
+    color: white;  
+}
+#typeText::placeholder {
+    font-size: 2.5rem;
+    color: brown;
+    font-family:Georgia, 'Times New Roman', Times, serif; 
+} 
+   
+#text-area{
+    width: 25%;
+    height: 40.25rem;
+    border-radius: 1.25rem;
+    border-color: rgb(150, 179, 21);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:1.875em;
+    color: brown;
+    float: right;
+    position: relative;
+    left: -6rem;
+}
+#textAreaImg{
+    width: 18.75rem;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 65rem;
+    margin-top: -3.125rem;
+    padding-top: 13.125rem;
+    object-position: -5rem;
+}
+#text-area::placeholder{
+    font-size: 1.56rem;
+    color: brown;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: justify;
+    padding-top: 120%;
+}
+h3{
+    position: absolute;
+    margin-top: 33.75rem;
+    margin-left: 1.5625rem;
+}
+#encryptButton{
+    background-color: darkblue;
+    width: 20.5rem;
+    height: 4.1875rem;
+    padding: 0.625rem;
+    margin-top: 21.875rem;
+    margin-left: 8.75rem;
+    border-radius: 1.5rem;
+    font-size: 1.125rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(231, 241, 240);
+    text-align: center;
+    float: left;
+    font-weight: bold; 
+} 
+#encryptButton:hover{
+    background-color: rgb(6, 67, 71);
+    transition: 1s;
+    font-size: 1.5625rem;
+}
+#decryptButton{
+    background-color: rgb(231, 241, 240);
+    width: 20.5rem;
+    height: 4.1875rem;
+    padding: 0.625rem;
+    margin-top: 21.875rem;
+    margin-left: 1.875rem;
+    border-radius: 1.5rem;
+    font-size: 1.125rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: darkblue;
+    text-align: center;
+    float: left;
+    font-weight: bold; 
+} 
+
+#decryptButton:hover{
+    background-color: rgb(147, 217, 222);
+    transition: 1s;
+    font-size: 1.5625rem;
+}
+#copyButton{
+    background-color: rgb(231, 241, 240);
+    width: 20.5rem;
+    height: 4.1875rem;
+    padding: 0.625rem;
+    margin-top: 35.625rem;
+    border-radius: 1.5rem;
+    font-size: 1.125rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: darkblue;
+    text-align: center;
+    font-weight: bold;
+    position: absolute;
+    left: 62.5rem;
+} 
+#copyButton:hover{
+    background-color: rgb(108, 236, 223);
+    transition: 1s;
+    font-size: 1.5625rem;
+}
+
+footer{
+    margin-top: 40.625rem;
+    margin-left: 5.9375rem;
+    margin-bottom: 1.25rem;
+    color: #0a3871;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+@media screen and (max-width:1280px) {
+    header{
+        padding: auto;
+        padding-top: 20px;
+    
+    }
+     #typeText{
+        width: 40.25rem;
+    }
+    #text-area{
+        border-radius: 1.25rem; 
+        position: relative;
+        left: -6.5rem;    
+    }
+
+    #textAreaImg{
+        width: 15.75rem;
+        left:  67.5rem;
+    }
+    #encryptButton{
+        margin-left: 4.75rem;
+        width: 16.4rem;
+        height: 3,35rem;
+        margin-left: 6.5%;
+    } 
+    #decryptButton{
+        width: 16.4rem;
+        height: 3,35rem;
+        margin-left: 2.5%;
+    }
+    #copyButton{
+        left:  64.2rem;
+        width: 16.4rem;
+        height: 3,35rem;
+    }
+    }
+
+@media screen and (max-width:820px){
+    header{
+        padding: auto;
+        padding-top: 1.25rem;
+        background-position-x: 4%;
+    
+    }
+     #typeText{
+        width: 75.25rem;
+        margin-right: 210px;
+        padding-block-start: 14.25rem;
+    }
+    #text-area{
+        border-radius: 1.25rem; 
+        position: relative;
+        font-size: 1rem;  
+        position: static;  
+        margin-top: 16.75rem;
+        margin-right: 210px;
+        width: 60.25rem;
+        height: 650px;
+    }
+    #text-area::placeholder{
+        font-size: 1.56rem;
+        color: brown;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        text-align: justify;
+        padding-top: 45%;
+        text-align: center;
+    } 
+    
+    #textAreaImg{
+        width: 15.75rem;
+        margin-top: 27.75rem;
+        left: 40rem;
+        object-position: -50px;
+    }
+    h3{
+        margin-top: 22.75rem;
+    }
+    #encryptButton{
+        margin-left: 22.75rem;
+        width: 16.4rem;
+        height: 3,35rem;
+        margin-top: 26.75rem;
+        position: absolute;
+    } 
+    #decryptButton{
+        margin-left: 45.75rem;
+        width: 16.4rem;
+        height: 3,35rem;
+        margin-top: 26.75rem;
+        position: absolute;
+    }
+    #copyButton{
+        left: 38rem;
+        width: 16.4rem;
+        height: 3,35rem;
+        margin-top: 65.75rem;
+    } 
+    footer{
+        margin-top: 74.75rem;
+    }
+    
+}
+
+
+@media screen and (max-width:576px){
+    body{
+        margin-left: -3rem;
+    }
+    header{
+        padding-left: 9.2rem;
+        padding-top: 2.8rem;
+        background-position-x: 7rem;
+        font-size: 10px;
+    }
+    .inputType{
+    width: 23.43rem;
+    }
+     #typeText{
+        width: 22rem;
+        margin-right: 4.1%;
+        padding-block-start: 14.25rem;
+        font-size: 1em;
+    }
+    #typeText::placeholder {
+        font-size: 1rem;
+    } 
+    #text-area{
+        border-radius: 1.25rem; 
+        position: absolute;
+        left: 6.8rem;
+        font-size: 1rem;    
+        margin-top: 24.75rem;
+        margin-left: -3.1rem;
+        width: 22rem;
+        height: 33rem;
+    }
+    #text-area::placeholder{
+        font-size: 1rem;
+        text-align: justify;
+        padding-top: 90%;
+        text-align: center;
+    } 
+    
+    #textAreaImg{
+        width: 8,8rem;
+        margin-top: 15.75rem;
+        left:  30%;
+      
+    }
+    h3{
+        margin-top: 19.75rem;
+        margin-left: 3.1rem;
+        font-size: 0.7rem;
+    }
+    #encryptButton{
+        margin-left: -22rem;
+        width: 8rem;
+        height: 3rem;
+        margin-top: 20.75rem;
+        position: relative;
+        font-size: 0.7rem;
+    } 
+    #encryptButton:hover{
+        font-size: 0.8rem;
+    }
+    #decryptButton{
+        margin-left: -11rem;
+        width: 8rem;
+        height: 3rem;
+        margin-top: 20.75rem;
+        position: relative;
+        font-size: 0.7rem;
+    }
+    #decryptButton:hover{
+        font-size: 0.8rem;
+    }
+    #copyButton{
+        width: 8rem;
+        height: 3rem;
+        margin-top: 53.75rem;
+        font-size: 0.7rem;
+        margin-left: -54.5rem; 
+        position: relative;   
+    } 
+    #copyButton:hover{
+        font-size: 0.8rem;
+    }
+    footer{
+        margin-left: 7.1rem;
+        position: relative;
+        margin-top: 1.75rem;
+    }
+    h5{
+        font-size: 0.5rem;
+    }
+    
+}
+
+

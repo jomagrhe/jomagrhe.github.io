@@ -1,0 +1,8 @@
+*{
+    font-family:'Roboto Condensed', sans-serif;
+}
+/* ajuste color columna izquierda */
+/* !important es decir que use mi estilo y no el de boostrap */
+.bg-primary{
+    background-color: rgb(11, 11, 66) !important;
+}
